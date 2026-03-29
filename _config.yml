@@ -1,8 +1,26 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: IT Translate
+description: IT 기술 문서 번역 저장소
+remote_theme: just-the-docs/just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://ckdehd200.github.io
+baseurl: /it-translate
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Footer content
+footer_content: "Copyright &copy; 2026 ckdehd200. Powered by Just the Docs."
+
+# Search config
+search_enabled: true
+search:
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+
+# Navigation config
+nav_sort: order
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
